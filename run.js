@@ -68,6 +68,7 @@ function uploadMaybe(items, endpoint, callback) {
 }
 
 (function requestLoop() {
+  console.warn("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
   client.fetch(function(err, data) {
     if (err) {
       throw new Error(err);
